@@ -1,0 +1,63 @@
+/* Main Styles */
+html, body {
+    margin: 0;
+    background: url('dog-thats-lit.jpg');
+    background-size: cover;
+    color: white;
+    font-family: Helvetica;
+}
+a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+}
+
+/* Containers */
+.flexContainer {
+    display: flex;
+    padding: 0 1em;
+    margin: auto;
+}
+.blockContainer {
+    display: block;
+    margin: 4em;
+    background: rgba(255,255,255,.7);
+    border-radius: 5px;
+    color: black;
+}
+
+/* Element Specific */
+.nav-brand {
+    flex: 1;
+    font-size: 1.4em;
+}
+.jumboText {
+    font-size: 5.5em;
+    padding: 0 1em 3em 1em;
+    text-shadow: .04em .04em .02em darkblue;
+}
+.articleTitle {
+    font-size: 2em;
+    padding: 3rem 3rem .5em 3rem;
+}
+.articleDescription {
+    padding: 0 3rem 3rem 3.1rem;
+}
+footer a{
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    margin: auto;
+}
+
+/* General Styles */
+.blankList {
+    list-style: none;
+}
+.blueBackground {
+    background-color: rgba(0, 0, 255, 0.6);
+}
+.flexCenter {
+    justify-content: center;
+}
